@@ -1,0 +1,182 @@
+body{
+   /* font-family: 'Suez One', serif;*/
+    margin: 0;
+    padding: 0;
+}
+/*#banner{
+    position: relative;
+    width: 100%;
+    height:650px;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    background-image: url(../images/donation8.jpg);
+}*/
+#banner img{
+    position: relative;
+    width: 100%;
+    height:650px;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    background-image: url(../images/donation8.jpg);
+    opacity:0.5;
+}
+
+#banner .bannerContent{
+    position: absolute;
+    top: 30%;
+    width:100%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+#banner h1{
+    font-family: 'Suez One', serif;
+    text-align: center;
+    font-size: 60px;
+    color: #121212;
+    margin: 0;
+}
+#banner p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #121212;
+    margin: 0 0 15px 0;
+}
+.button{
+    background-color: #FF5959;
+    color: #fff;
+    border-radius: 3px;
+    font-size:15px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+#donateToday{
+    padding: 100px 0;
+    text-align: center;
+}
+#donateToday h2,
+#donatePlan h2{
+    font-family: 'Suez One', serif;
+    text-align: center;
+    font-size: 30px;
+    color: #121212;
+    margin: 0;
+}
+#donateToday p,
+#donatePlan p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #121212;
+    margin: 15px 0 40px 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+}
+li{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    background: #FAFAFA;
+    padding: 40px 25px;
+    border-radius: 5px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+li.active{
+    background: #FFEEEE;
+    border:2px solid #FF5959;
+    color: #FF5959;
+}
+.typeText{
+    width: 50%;
+    margin: 25px 0;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    font-family: 'Quicksand', sans-serif;
+    font-size:15px;
+    text-align: center;
+}
+.submitBtn{
+    background-color: #FF5959;
+    color: #fff;
+    border-radius: 3px;
+    font-size:15px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+.planBox{
+    margin: 0 auto;
+    text-align: center;
+}
+.planBoxItem{
+    width: 25%;
+    display: inline-block;
+    padding: 60px 20px 20px;
+    margin: 0 10px;
+}
+
+.planBoxItem.food{
+    background: rgba(79, 157, 166, 0.1)
+   
+}
+.planBoxItem.shelter{
+    background: rgba(255, 89, 89, 0.1)
+   
+}
+.planBoxItem.education{
+    background: rgba(255, 244, 214, 1)
+}
+
+.planBoxItem.food .icon{
+    background: url(../icons/food.png) no-repeat;
+    display: block;
+    width: 61px;
+    height: 52px;
+}
+.planBoxItem.shelter .icon{
+    background: url(../icons/shelter.png) no-repeat;
+    display: block;
+    width: 61px;
+    height: 52px;
+}
+.planBoxItem.education .icon{
+    background: url(../icons/Frame-1.png) no-repeat;
+    display: block;
+    width: 61px;
+    height: 52px;
+}
+.planBoxItem h3{
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    margin: 25px 0px;
+    font-weight: 900;
+}
+#donatePlan .planBoxItem p{
+    text-align: left;
+    font-size:14px;
+    margin:0 0 25px 0;
+}
+
+#footer{
+    background: #0B0D17;
+    padding: 50px 0;
+}
+#footer p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
