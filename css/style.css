@@ -55,6 +55,9 @@ body{
     padding: 100px 0;
     text-align: center;
 }
+#donatePlan{
+    padding: 0 0 70px 0;
+}
 #donateToday h2,
 #donatePlan h2{
     font-family: 'Suez One', serif;
